@@ -1,0 +1,465 @@
+body {
+  height: 100vh;
+  width: 100%;
+
+}
+
+
+html{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #0D0023FF, #1c1c1c);
+/* background-color: rgb(13, 0, 35)*/;
+
+}
+
+.loginborder{
+background-color: rgba(255, 255, 255, 0.2);
+width: 330px;
+  height: 330px;
+  border-radius: 15px;
+  border: 1px solid rgba(213, 213, 213, 0.2);
+}
+
+.registerborder{
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  border: 1px solid rgba(213, 213, 213, 0.2);
+}
+
+.buttonButtonButton{
+  margin-top: 10px;
+  padding: 10px 50px 10px 50px;
+  border-radius: 17px;
+}
+
+.loginlabel{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.one{
+display: flex;
+  justify-content: center;
+}
+
+.two{
+  display: flex;
+  justify-content: center;
+}
+
+.authWindow{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.uzNevim{
+  width: 100%;
+  height: 100%;
+}
+
+
+input{
+  border-radius: 15px;
+  padding: 5px;
+  border: 0;
+  background: #e1e1e1;
+  height: 25px;
+  margin-bottom: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+.loginbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messLower input {
+  border-radius: 15px;
+  padding: 5px;
+  border: 0;
+  background: #e1e1e1;
+  height: 30px;
+}
+
+.messLower input:focus {
+  outline: none;
+}
+
+button{
+  border-radius: 10px;
+  border: hidden;
+  color: black;
+  background-color: white;
+  padding: 6px;
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+.loginForm{
+  flex: 5;
+height: 100%;
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInputRightPanelLower{
+  border-radius: 25px;
+}
+
+.settingsTitles{
+  margin-left: 10px;
+}
+
+.buttonButton:hover{
+background-color: #a2a2a2;
+}
+
+.buttonButton{
+  border: 5px black;
+  background-color: lightgray;
+  padding:8px 22px 8px 22px;
+  margin-left: 10px;
+}
+
+.chatLink{
+  text-decoration: none;
+  color: black;
+}
+
+.panels {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.mention {
+  color: blue;
+}
+
+.avatarParent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  margin: 5px;
+  border: 3px solid transparent;
+  padding: 3px;
+}
+
+.avatar:hover {
+  background: #e1e1e1;
+
+}
+
+.avatar:focus {
+  background-color: lightgray;
+  border: 3px solid #9b9b9b;
+}
+
+.wrapper {
+  display: flex;
+  height: 85%;
+  width: 80%;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .wrapper{
+    width: 100%;
+  }
+  .panels{
+    width: 100%;
+  }
+}
+
+
+
+
+
+.first {
+flex: 1;
+  position: relative;
+  height: 100%;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+.second {
+flex: 1;
+  margin-left: 4%;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  gap:0;
+}
+
+.leftPanelUpper {
+  /*background-image: linear-gradient(to left top, #000000, #2a071a, #470037, #5d0061, #610096);*/
+  background-color: rgb(64, 0, 79);
+  border-radius: 15px 15px 0px 0px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.leftPanelMid {
+  flex: 12;
+  background-color: White;
+
+}
+
+.leftPanelLower {
+  flex: 1;
+ /* background-image: linear-gradient(to left top, #000000, #2a071a, #470037, #5d0061, #610096);*/
+  background-color: rgb(64, 0, 79);
+  border-radius: 0px 0px 15px 15px ;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+}
+
+.rightPanelUpper {
+ /* background-image: linear-gradient(to left top, #000000, #2a071a, #470037, #5d0061, #610096);*/
+  background-color: rgb(64, 0, 79);
+flex: 1;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+}
+
+.rightPanelMid {
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  flex: 12;
+  flex-direction: column-reverse;
+  display: flex;
+  margin-bottom: -1px;
+}
+
+.messages{
+  flex: 1;
+}
+
+.messagespanellower{
+  display: flex;
+  flex-direction: column;
+}
+
+.rightPanelLower {
+background-color: white;
+  flex: 1;
+  border-radius: 0px 0px 15px 15px ;
+  display: flex;
+  align-items: center;
+  line-height: 1px;
+  overflow: hidden;
+}
+
+.friendListItem {
+  margin-bottom: 5px;
+}
+
+.friendListLastMes {
+  color: grey;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.lol {
+  width: 100%;
+}
+
+.messageInput {
+  flex: 7;
+}
+
+.messageButton {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.messLower {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+
+.notSeen {
+  background-color: whitesmoke;
+
+}
+.notSeenFont {
+  font-weight: 700;
+
+}
+
+.messParentReply{
+  margin-top: 12px;
+  margin-bottom: 12px;
+justify-content: end;
+  display: flex;
+  padding-right: 5px;
+}
+
+.messParent{
+  margin-top: 12px;
+  margin-bottom: 12px;
+padding-left: 5px;
+  display: flex;
+}
+
+.messName{
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.messAvatar{
+display: flex;
+}
+
+.messTimeReply{
+
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.messTime{
+  display: inline-block;
+  font-size: 12px;
+}
+.messMessageReply{
+display: flex;
+  justify-content: end;
+  height: fit-content;
+  align-items: center;
+}
+
+.messMessage{
+  display: flex;
+  height: fit-content;
+  align-items: center;
+
+}
+
+.inputButton{
+
+}
+
+.textAreaStyle{
+
+}
+
+.wrapper1Reply{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 2px;
+  align-items: start;
+}
+
+.wrapper1{
+  display: flex;
+  padding-top: 11px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.wrapper2{
+padding-left: 5px;
+}
+
+.wrapper3{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.wrapper3{
+
+}
+
+.chatList{
+  padding-left: 10px;
+
+}
+
+.leftPanelLowerInside{
+display: flex;
+  width: 100%;
+}
+
+.leftLowerUsername{
+  margin-left: 5px;
+flex: 1;
+}
+
+.leftLowerAvatar{
+
+}
+
+.leftLowerButton{
+flex: 1;
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.leftPanelMessButt{
+flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftPanelSettButt{
+flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightPanelUpperSettButt{
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+
+.rightPanelUpperLabel{
+flex: 1;
+}
